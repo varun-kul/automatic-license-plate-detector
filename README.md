@@ -45,6 +45,7 @@ git clone [https://github.com/varun-kul/automatic-license-plate-detector.git](ht
 cd automatic-license-plate-detector
 ```
 2. Create a Virtual Environment (Optional but Recommended)
+
  Windows
 ```bash
 python -m venv venv
@@ -88,13 +89,21 @@ To run the detector on a video file or live webcam feed:
 
 ## 📂 Project Structure
 automatic-license-plate-detector/
+
 ├── images/                # Sample images for testing
+
 ├── videos/                # Sample videos (optional)
+
 ├── model/                 # Pre-trained models (if any)
+
 ├── main.py                # Main script for detection
+
 ├── utils.py               # Helper functions (preprocessing, OCR)
+
 ├── requirements.txt       # Python dependencies
+
 ├── README.md              # Project documentation
+
 └── LICENSE                # License file
 
 ## License
