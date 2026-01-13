@@ -40,42 +40,53 @@ python --version
 
 ### Installation
 1. Clone the repository
-
+```bash
 git clone [https://github.com/varun-kul/automatic-license-plate-detector.git](https://github.com/varun-kul/automatic-license-plate-detector.git)
 cd automatic-license-plate-detector
-
+```
 2. Create a Virtual Environment (Optional but Recommended)
-
-# Windows
+ Windows
+```bash
 python -m venv venv
 .\venv\Scripts\activate
-
-# macOS/Linux
+```
+ macOS/Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 (Note: If a requirements.txt file is missing, you typically need to install the following common libraries):
+```bash
 pip install opencv-python easyocr numpy matplotlib imutils
+```
 
-### 💻 Usage
+## 💻 Usage
 
 1. Detect from an Image
 Place your test images in the images/ folder (or specify your path) and run the main script.
+```bash
 python main.py --image images/car1.jpg
+```
 
 2. Detect from Video / Webcam
 To run the detector on a video file or live webcam feed:
-# For webcam
-python main.py --source 0
+ For webcam
+ ```bash
+  python main.py --source 0
+```
 
-# For video file
-python main.py --source videos/traffic.mp4
-
+ For video file
+ ```bash
+ python main.py --source videos/traffic.mp4
+```
 (Note: Replace main.py with the actual name of your script, e.g., detect.py or app.py)
 
-### 📂 Project Structure
+## 📂 Project Structure
 automatic-license-plate-detector/
 ├── images/                # Sample images for testing
 ├── videos/                # Sample videos (optional)
@@ -86,10 +97,10 @@ automatic-license-plate-detector/
 ├── README.md              # Project documentation
 └── LICENSE                # License file
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 📞 Contact
+## 📞 Contact
 Varun Kul GitHub: @varun-kul
 
 Project Link: https://github.com/varun-kul/automatic-license-plate-detector
