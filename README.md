@@ -27,6 +27,28 @@ This system utilizes deep learning and image processing techniques to identify t
 * **Pandas/NumPy**: For data handling and matrix operations.
 * **Matplotlib**: For visualization (optional).
 
+## 📋 Hardware Requirements
+
+The following hardware specifications are recommended for deploying the Automatic License Plate Detector in production environments:
+
+| Component            | Minimum          | Recommended                    |
+| -------------------- | ---------------- | ------------------------------ |
+| **CPU**              | Intel i5 8th Gen | Intel i7 10th Gen or newer     |
+| **RAM**              | 8 GB             | 16 GB                          |
+| **Storage**          | 128 GB SSD       | 256 GB SSD or larger           |
+| **Operating System** | Windows 10       | Windows 10/11 or Ubuntu        |
+| **Camera**           | 720p USB Camera  | 1080p IP Camera                |
+| **Power Backup**     | UPS Backup       | UPS with 4+ hours backup       |
+| **Cooling**          | Active Cooling   | Proper ventilation and cooling |
+
+### Notes
+
+* Higher CPU and RAM configurations improve real-time detection performance.
+* SSD storage is recommended for faster data access and model loading.
+* A 1080p camera provides better image quality, resulting in more accurate license plate recognition.
+* For continuous operation, ensure adequate cooling and power backup to prevent downtime.
+
+
 ## 🚀 Getting Started
 
 Follow these instructions to set up the project on your local machine.
